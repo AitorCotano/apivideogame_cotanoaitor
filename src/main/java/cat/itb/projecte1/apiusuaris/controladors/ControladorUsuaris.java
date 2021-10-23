@@ -44,6 +44,4 @@ public class ControladorUsuaris {
        return serveiUsuaris.modificarUsuari(mod);
     }
 
-
-
 }
