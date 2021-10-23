@@ -25,11 +25,11 @@ private final ServeiUsuaris serveiUsuaris;
     //proves amb un altre endpoint per crear un usuari
     //si es pot crear es retorna CREATED
     @PostMapping("/user")
-    public ResponseEntity<?> crearTodoItem(@RequestBody Usuari nou){
+    public ResponseEntity<?> crearUsusari(@RequestBody Usuari nou){
         Usuari res=serveiUsuaris.afegirUsuari(nou);
         return new ResponseEntity<Usuari>(res, HttpStatus.CREATED);
     }
 
-    //TODO
+
 
 }

@@ -18,7 +18,7 @@ public class ControladorUsuaris {
 
 
     @GetMapping("/usuaris")
-    public List<Usuari> llistarItems(){
+    public List<Usuari> llistarUsuaris(){
         return serveiUsuaris.llistarUsuaris();
     }
 
