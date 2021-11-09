@@ -12,6 +12,7 @@ public class Usuari {
     private String idUsuari;
     private String password;
     private String rol;
+    private double sou;
 }
 
 

@@ -7,6 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 //Documentació aquí
 //https://spring.io/guides/gs/rest-service-cors/
+//Exemple d'habilitar Cross Origins a nivell de controlador, no de mètode.
 
 @Configuration
 public class ConfiguracioWebApi {

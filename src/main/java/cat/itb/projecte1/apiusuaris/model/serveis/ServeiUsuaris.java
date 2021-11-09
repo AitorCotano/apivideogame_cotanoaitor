@@ -6,6 +6,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 
 @Service
@@ -15,7 +16,21 @@ public class ServeiUsuaris {
 
     //llistar tots els ítems
     public List<Usuari> llistarUsuaris(){
+
         return repoUsuaris.findAll();
+    }
+
+
+    public List<Usuari> llistarUsuarisPerRol(String rol){
+        return repoUsuaris.findByRol(rol);
+    }
+
+    public long comptarPerRol(String rol){
+        return repoUsuaris.countByRol(rol);
+    }
+
+    public List<Usuari> llistatPerSouMenorA(double sou){
+        return repoUsuaris.findBySouLessThan(sou);
     }
 
     //consultar ítem per id
