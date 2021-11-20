@@ -15,6 +15,7 @@ private final ServeiUsuaris serveiUsuaris;
 
     //proves amb un altre endpoint per consultar usuari
     //si l'id d'usuari no existeix es retorna 404 Not Found
+
     @GetMapping("/user/{id}")
     public ResponseEntity<?> consultarUsuari(@PathVariable String id) {
         Usuari res = serveiUsuaris.consultarUsuari(id);

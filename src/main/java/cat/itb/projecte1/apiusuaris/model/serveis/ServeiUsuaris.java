@@ -44,9 +44,9 @@ public class ServeiUsuaris {
     }
 
     //modificar sencer, si existeix el canvia, sino retorna null
-    public Usuari modificarUsuari(Usuari it){
+    public Usuari modificarUsuari(Usuari usu){
         Usuari aux=null;
-        if(repoUsuaris.existsById(it.getIdUsuari())) aux=repoUsuaris.save(it);
+        if(repoUsuaris.existsById(usu.getIdUsuari())) aux=repoUsuaris.save(usu);
         return aux;
     }
 
