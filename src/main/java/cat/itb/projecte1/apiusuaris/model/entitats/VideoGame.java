@@ -7,12 +7,12 @@ import javax.persistence.Id;
 
 @Data
 @Entity
-public class Usuari {
+public class VideoGame {
     @Id
-    private String idUsuari;
-    private String password;
-    private String rol;
-    private double sou;
+    private String idVG;
+    private String title;
+    private String genere;
+    private double multiplayer;
 }
 
 

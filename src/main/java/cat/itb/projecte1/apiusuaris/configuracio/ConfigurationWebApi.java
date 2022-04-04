@@ -10,7 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 //Exemple d'habilitar Cross Origins a nivell de controlador, no de mètode.
 
 @Configuration
-public class ConfiguracioWebApi {
+public class ConfigurationWebApi {
     @Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
