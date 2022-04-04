@@ -5,10 +5,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-//Documentació aquí
-//https://spring.io/guides/gs/rest-service-cors/
-//Exemple d'habilitar Cross Origins a nivell de controlador, no de mètode.
-
 @Configuration
 public class ConfigurationWebApi {
     @Bean
@@ -17,7 +13,7 @@ public class ConfigurationWebApi {
 
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/usuaris/**")
+                registry.addMapping("/videogames/**")
                         //.allowedOrigins("http://localhost:9001")
                         .allowedOrigins("*")
                         .allowedMethods("GET", "POST", "PUT", "DELETE")

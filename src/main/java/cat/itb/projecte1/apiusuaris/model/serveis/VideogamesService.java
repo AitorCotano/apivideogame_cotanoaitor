@@ -27,13 +27,13 @@ public class VideogamesService {
 
     public VideoGame modifyVideogame(VideoGame videogame) {
         VideoGame aux = null;
-        if(repo.existsById(videogame.getIdVG())) aux = repo.save(videogame);
+        if (repo.existsById(videogame.getIdVG())) { aux = repo.save(videogame); }
         return aux;
     }
 
     public VideoGame deleteVideogame(String id) {
         VideoGame res = repo.findById(id).orElse(null);
-        if(res!=null) repo.deleteById(id);
+        if (res!=null) { repo.deleteById(id); }
         return res;
     }
 }
