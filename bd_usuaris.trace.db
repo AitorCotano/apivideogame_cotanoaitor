@@ -1,0 +1,20 @@
+2022-05-13 14:06:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "VIDEO_GAME" no encontrada
+Table "VIDEO_GAME" not found; SQL statement:
+select videogame0_.idvg as idvg1_1_, videogame0_.genere as genere2_1_, videogame0_.multiplayer as multipla3_1_, videogame0_.title as title4_1_ from video_game videogame0_ [42102-200]
+2022-05-13 14:06:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "VIDEO_GAME" no encontrada
+Table "VIDEO_GAME" not found; SQL statement:
+select videogame0_.idvg as idvg1_1_, videogame0_.genere as genere2_1_, videogame0_.multiplayer as multipla3_1_, videogame0_.title as title4_1_ from video_game videogame0_ [42102-200]
+2022-05-13 14:06:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "VIDEO_GAME" no encontrada
+Table "VIDEO_GAME" not found; SQL statement:
+select videogame0_.idvg as idvg1_1_, videogame0_.genere as genere2_1_, videogame0_.multiplayer as multipla3_1_, videogame0_.title as title4_1_ from video_game videogame0_ [42102-200]
+2022-05-13 14:06:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "VIDEO_GAME" no encontrada
+Table "VIDEO_GAME" not found; SQL statement:
+select videogame0_.idvg as idvg1_1_, videogame0_.genere as genere2_1_, videogame0_.multiplayer as multipla3_1_, videogame0_.title as title4_1_ from video_game videogame0_ [42102-200]
+2022-05-13 14:09:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "VIDEO_GAME" no encontrada
+Table "VIDEO_GAME" not found; SQL statement:
+select videogame0_.idvg as idvg1_1_, videogame0_.genere as genere2_1_, videogame0_.multiplayer as multipla3_1_, videogame0_.title as title4_1_ from video_game videogame0_ [42102-200]
